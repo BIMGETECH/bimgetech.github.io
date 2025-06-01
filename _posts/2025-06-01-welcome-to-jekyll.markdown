@@ -29,14 +29,14 @@ DSA (Digital Signature Algorithm)	Firmas digitales (estándar gubernamental de E
 
 ### 3. Ventajas, desventajas y diferencias con la criptografía simétrica
 Ventajas:
-✔️ Seguridad en canales abiertos: No requiere compartir claves secretas.
-✔️ Autenticación y no repudio: Las firmas digitales validan identidad e integridad.
-✔️ Escalabilidad: Ideal para entornos con muchos usuarios (ej: internet).
+✔Seguridad en canales abiertos: No requiere compartir claves secretas.
+✔Autenticación y no repudio: Las firmas digitales validan identidad e integridad.
+✔Escalabilidad: Ideal para entornos con muchos usuarios (ej: internet).
 
 Desventajas:
-❌ Lentitud: Operaciones matemáticas complejas (ej: RSA es ~1000 veces más lento que AES).
-❌ Gestión de claves: Requiere infraestructura (PKI) para validar identidades.
-❌ Longitud de claves: Claves más largas que en simétrico (ej: RSA-3072 bits vs. AES-256 bits).
+Lentitud: Operaciones matemáticas complejas (ej: RSA es ~1000 veces más lento que AES).
+Gestión de claves: Requiere infraestructura (PKI) para validar identidades.
+Longitud de claves: Claves más largas que en simétrico (ej: RSA-3072 bits vs. AES-256 bits).
 
 Diferencias clave vs. criptografía simétrica:
 

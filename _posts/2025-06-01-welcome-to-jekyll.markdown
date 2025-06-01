@@ -7,8 +7,8 @@ categories: jekyll update
 ### 1. ¿Qué es el criptosistema de clave pública?
 Es un sistema de criptografía asimétrica que utiliza dos claves matemáticamente relacionadas:
 
-# Clave pública: Compartida abiertamente para cifrar datos o verificar firmas.
-# Clave privada: Secreta, usada para descifrar mensajes o firmar digitalmente.
+#### Clave pública: Compartida abiertamente para cifrar datos o verificar firmas.
+#### Clave privada: Secreta, usada para descifrar mensajes o firmar digitalmente.
 
 Su objetivo es resolver problemas de confidencialidad, autenticación y no repudio en entornos inseguros (como Internet), sin necesidad de compartir secretos previamente.
 

@@ -1,0 +1,20 @@
+title: bimgetech
+description: Mi blog personal sobre tecnología y programación
+url: "https://bimgetech.github.io"
+baseurl: ""
+theme: minima
+
+# Personalización avanzada
+author:
+  name: bimgetech
+  email: tu@email.com
+  description: "Desarrollador y entusiasta de la tecnología"
+  
+# Configuración para GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock

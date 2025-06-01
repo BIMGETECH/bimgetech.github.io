@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2. ¿Cómo funciona y cuáles son sus algoritmos representativos?"
-date:   2025-06-01 10:13:14 -0500
+date:   2025-06-01 12:13:14 -0500
 categories: jekyll update
 ---
 

@@ -1,12 +1,10 @@
 ---
-title: "Algoritmos de Criptografía Asimétrica"
+title: "¿Qué es la Criptografía de Clave Pública?"
 date: 2025-06-02
-categories:
-  - Criptografía
-tags:
-  - RSA
-  - ECC
-  - DSA
+layout: post
+author: TuNombre
+categories: [Ciberseguridad, Criptografía]
+image: /assets/images/clave-publica.png  # Opcional pero recomendado
 ---
 
 Principales algoritmos:

@@ -9,16 +9,12 @@ title: Acerca de mí
     
     <p>Soy bimgetech, un apasionado por la tecnología, la programación y el desarrollo web. Este blog es mi espacio personal para compartir lo que aprendo y los proyectos en los que trabajo.</p>
     
-    <p>Actualmente trabajo como [tu puesto] en [tu empresa/institución], donde me especializo en [tu especialidad].</p>
+    <p>Actualmente trabajo como ingeniero en la compañia bimgetech, donde me especializo en en muchas cositas :).</p>
     
     <h2>Mis habilidades</h2>
     
     <ul>
-      <li>Desarrollo web frontend (HTML, CSS, JavaScript)</li>
-      <li>Frameworks modernos (React, Vue, Angular)</li>
-      <li>Desarrollo backend (Node.js, Python, Ruby)</li>
-      <li>Bases de datos (SQL, MongoDB, Firebase)</li>
-      <li>DevOps y despliegue continuo</li>
+        <li>ingenieria estructural</li>
     </ul>
     
     <h2>Contacto</h2>
@@ -27,7 +23,7 @@ title: Acerca de mí
     
     <ul>
       <li>Email: <a href="mailto:tu@email.com">tu@email.com</a></li>
-      <li>Twitter: <a href="https://twitter.com/bimgetech">@bimgetech</a></li>
+      <li>Instagram: <a href="https://www.instagram.com/bimgetech/">@bimgetech</a></li>
       <li>GitHub: <a href="https://github.com/bimgetech">bimgetech</a></li>
     </ul>
   </div>

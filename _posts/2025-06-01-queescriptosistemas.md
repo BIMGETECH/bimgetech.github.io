@@ -14,7 +14,7 @@ Su objetivo es resolver problemas de confidencialidad, autenticación y no repud
 
 {% raw %}
 <iframe width="560" height="315" 
-src="https://www.youtube.com/embed/watch?v=SIIqLgqRMCo&ab_channel=ContandoBits" 
+src="https://www.youtube.com/embed/SIIqLgqRMCo" 
 frameborder="0" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen>

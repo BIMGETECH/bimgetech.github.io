@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "caso practico"
+title:  "4. Caso practico"
 date:   2025-06-01 13:13:14 -0500
 categories: jekyll update
 ---

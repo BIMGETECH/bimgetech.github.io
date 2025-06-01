@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Somos Bimgetech"
 date:   2025-06-01 13:13:14 -0500
 categories: jekyll update
 ---

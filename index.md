@@ -3,11 +3,11 @@ layout: home
 title: Inicio
 ---
 
-<h1 class="welcome-heading">¡Hola! Soy bimgetech</h1>
+<h1 class="welcome-heading">SOMOS BIMGETECH</h1>
 
-<p>Bienvenido a mi blog personal donde comparto mis experiencias, proyectos y aprendizajes en el mundo de la tecnología.</p>
+<p>Bienvenido a mi blog personal donde comparto mis experiencias, proyectos y aprendizajes en el mundo de la Ingenieria estructural y Consultoria.</p>
 
-<h2>Últimos artículos</h2>
+<h2>Seguridad en el Desarrollo de Software</h2>
 
 <ul class="post-list">
   {% for post in site.posts limit:5 %}

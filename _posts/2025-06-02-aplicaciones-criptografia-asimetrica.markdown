@@ -1,12 +1,8 @@
 ---
-title: "Aplicaciones de Criptografía Asimétrica"
-date: 2025-06-02
-categories:
-  - Aplicaciones
-tags:
-  - SSL/TLS
-  - PGP
-  - Blockchain
+layout: post
+title:  "1. Ventajas, desventajas y diferencias con la criptografía simétrica"
+date:   2025-06-01 10:13:14 -0500
+categories: jekyll update
 ---
 ### 3. Ventajas, desventajas y diferencias con la criptografía simétrica
 Ventajas:

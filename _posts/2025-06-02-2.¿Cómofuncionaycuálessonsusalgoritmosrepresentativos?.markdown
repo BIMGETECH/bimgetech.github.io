@@ -1,10 +1,8 @@
 ---
-title: "2. ¿Cómo funciona y cuáles son sus algoritmos representativos?"
-date: 2025-06-02
 layout: post
-author: TuNombre
-categories: [Ciberseguridad, Criptografía]
-image: /assets/images/clave-publica.png  # Opcional pero recomendado
+title:  "1. ¿Cómo funciona y cuáles son sus algoritmos representativos?"
+date:   2025-06-01 10:13:14 -0500
+categories: jekyll update
 ---
 
 ### 2. ¿Cómo funciona y cuáles son sus algoritmos representativos?
@@ -40,7 +38,7 @@ Número de claves	2 (pública + privada).	1 clave secreta compartida.
 Velocidad	Lenta.	Rápida (ideal para grandes volúmenes de datos).
 Casos de uso	Intercambio inicial de claves, firmas digitales.	Cifrado de datos masivos (ej: archivos, streaming).
 Seguridad	Basada en problemas matemáticos (factorización, logaritmos discretos).	Basada en operaciones de bits (sustitución, permutación).
-4. Caso práctico: Comunicación Segura con TLS/SSL
+### 4. Caso práctico: Comunicación Segura con TLS/SSL
 Algoritmo usado: RSA o ECC (en handshake TLS) + AES (simétrico para datos).
 Dónde se aplica: Conexiones web (HTTPS), APIs, correos (SMTP/TLS).
 
@@ -64,7 +62,7 @@ Cliente (Navegador)          Servidor (Web)
        |<----------------------| Envía certificado (clave pública RSA).
        |-- [Cifra clave AES] -->| Usa RSA para enviar clave simétrica.
        |<======== [AES] ======>| Comunicación cifrada con AES.
-5. Observaciones y Recomendaciones de Implementación
+### 5. Observaciones y Recomendaciones de Implementación
 Buenas prácticas:
 
 Usa híbridos: Combina asimétrico (para intercambio de claves/firmas) + simétrico (para datos).

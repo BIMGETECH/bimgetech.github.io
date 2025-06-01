@@ -1,11 +1,8 @@
 ---
-title: "RSA vs DSA vs ECC: Comparativa"
-date: 2025-06-02
-categories:
-  - Criptografía
-tags:
-  - Algoritmos
-  - Seguridad
+layout: post
+title:  "Rsa-"
+date:   2025-06-01 13:13:14 -0500
+categories: jekyll update
 ---
 
 | Característica | RSA       | DSA       | ECC          |

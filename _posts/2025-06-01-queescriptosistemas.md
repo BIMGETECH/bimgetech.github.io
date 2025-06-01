@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "1. ¿Qué es el criptosistema de clave pública?"
-date:   2025-06-01 10:13:14 -0500
+date:   2025-06-01 18:13:14 -0500
 categories: jekyll update
 ---
 ### 1. ¿Qué es el criptosistema de clave pública?

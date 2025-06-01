@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "3. Ventajas, desventajas y diferencias con la criptografía simétrica"
-date:   2025-06-01 13:13:14 -0500
+date:   2025-06-01 16:13:14 -0500
 categories: jekyll update
 ---
 ### 3. Ventajas, desventajas y diferencias con la criptografía simétrica

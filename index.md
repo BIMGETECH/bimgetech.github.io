@@ -1,8 +1,14 @@
-<center><span style="font-size: 40px; color: #000080;"><b>PORTAFOLIO</b></span></center>
-
-<center><span style="font-size: 20px;"><b>PROYECTOS DE INGENIERÍA ESTRUCTURAL</b></span></center>
-
 ---
+layout: home
+title: Inicio
+---
+
+<h1 class="welcome-heading">¡Hola! Soy bimgetech</h1>
+
+<p>Bienvenido a mi blog personal donde comparto mis experiencias, proyectos y aprendizajes en el mundo de la tecnología.</p>
+
+<h2>Últimos artículos</h2>
+
 <ul class="post-list">
   {% for post in site.posts limit:5 %}
     <li>
@@ -14,3 +20,5 @@
     </li>
   {% endfor %}
 </ul>
+
+<p><a href="{{ '/archive' | relative_url }}">Ver todos los artículos →</a></p>

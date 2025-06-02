@@ -18,6 +18,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-
-google_analytics: G-ZZYG0XLBM7 
-theme: jekyll-theme-minimal

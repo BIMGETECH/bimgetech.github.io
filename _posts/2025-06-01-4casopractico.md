@@ -2,6 +2,7 @@
 layout: post
 title:  "4. Caso practico"
 date:   2025-06-01 15:13:14 -0500
+categories: jekyll update
 ---
 
 ### 4. Caso práctico:

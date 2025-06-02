@@ -20,3 +20,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
 allowfullscreen>
 </iframe>
 {% endraw %}
+
+Ref:
+Stallings, W. (2018). Criptografía y seguridad de redes: Principios y práctica (7.ª ed.). Pearson Educación.
+Stallings, W. (2017). Cryptography and Network Security: Principles and Practice (7.ª ed.). Pearson.

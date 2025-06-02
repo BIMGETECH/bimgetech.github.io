@@ -1,24 +1,55 @@
----
-layout: home
-title: Inicio
----
+html
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>
+    
+      bimgetech
+    
+  </title>
+  
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!-- AQUÍ AGREGARÁS EL CSS DEL MODO CLARO/OSCURO -->
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+  
+  <body>
+    <header>
+  <nav>
+    <a href="/">Inicio</a>
+    <a href="/about">Acerca de</a>
+  </nav>
+  
+  <!-- BOTÓN PARA CAMBIAR TEMA -->
+  <button class="theme-toggle">🌙</button>
+</header>
+    
+    <main>
+      <div class="home">
+<h2 class="post-list-heading">Posts</h2>
+    <ul class="post-list"><li><span class="post-meta">Jun 1, 2025</span>
+        <h3>
+          <a class="post-link" href="/jekyll/update/2025/06/01/welcome-to-jekyll.html">
+            Welcome to Jekyll!
+          </a>
+        </h3></li></ul>
 
-<h1 class="welcome-heading">¡Hola! Soy bimgetech</h1>
+    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
 
-<p>Bienvenido a mi blog personal donde comparto mis experiencias, proyectos y aprendizajes en el mundo de la tecnología.</p>
+    </main>
+    
+    <footer>
+  <p>&copy; 2025 bimgetech</p>
+  
+  <!-- AQUÍ AGREGARÁS EL SCRIPT DEL TEMA -->
+  <script src="/assets/js/theme.js"></script>
+</footer>
 
-<h2>Últimos artículos</h2>
 
-<ul class="post-list">
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class="post-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        <span>• {{ post.content | reading_time }} lectura</span>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
-
-<p><a href="{{ '/archive' | relative_url }}">Ver todos los artículos →</a></p>
+  </body>
+</html>

@@ -1,32 +1,23 @@
-title: <p align="center"> Bimgetech</p>
+title: bimgetech
+description: Mi blog personal sobre tecnología y programación
+url: "https://bimgetech.github.io"
+baseurl: ""
+theme: minima
 
-logo: /assets/img/logo.png
-
-description: <p align="center">Structural Engineering </p>
-  <p align="center">
-  <a href="https://www.instagram.com/bimgetech/">Bimgetech</a> |
-  <a href="https://www.linkedin.com/in/luis-maldonado-de-la-torre/">LinkedIn 1</a> |
-  <a href="https://linkedin.com/company/structural-tech-py">LinkedIn 2</a>
-  </p>
+# Personalización avanzada
+author:
+  name: bimgetech
+  email: tu@email.com
+  description: "Desarrollador y entusiasta de la tecnología"
   
-  <p align="justify">
-  Profesional egresado de la carrera de Ingeniería Civil de la Universidad Nacional de Ingeniería. Apasionado con la automatozacion, Análisis Sísmico, Diseño Estructural y la Metodología BIM-VDC.
-  <br><br>
-  Asistente de Investigación en el Laboratorio de Diseño y Construcción virtual BIM UNI en donde se enfoca en el desarrollo de proyectos de Automatización en el Área de Ingeniería Estructural. Además, trabaja en una oficina de Diseño Estructural en donde resolvemos los desafíos actuales con los últimos enfoques y tecnologías.
-  <br><br>
-  </p>
+# Configuración para GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
 
-  <ul class="post-list">
-  {% for post in site.posts limit:5 %}
-    <li>
-      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <div class="post-meta">
-        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        <span>• {{ post.content | reading_time }} lectura</span>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 google_analytics: G-ZZYG0XLBM7 
 theme: jekyll-theme-minimal

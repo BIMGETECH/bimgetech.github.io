@@ -2,7 +2,7 @@ title: Bimgetech
 description: Mi blog personal sobre tecnología y programación
 url: "https://bimgetech.github.io"
 baseurl: ""
-theme: minima
+theme: null
 
 # Personalización avanzada
 author:
@@ -18,3 +18,5 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+sass:
+  style: compressed

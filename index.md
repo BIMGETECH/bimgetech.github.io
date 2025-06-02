@@ -34,13 +34,7 @@ html
 <h2 class="post-list-heading">Posts</h2>
     <ul class="post-list"><li><span class="post-meta">Jun 1, 2025</span>
         <h3>
-          <a class="post-link" href="/jekyll/update/2025/06/01/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
-
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
-
+         
     </main>
     
     <footer>

@@ -3,6 +3,8 @@ description: Mi blog personal sobre tecnología y programación
 url: "https://bimgetech.github.io"
 baseurl: ""
 theme: null
+sass:
+  style: compressed
 
 # Personalización avanzada
 author:

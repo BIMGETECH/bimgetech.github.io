@@ -2,7 +2,7 @@
 layout: post
 title: "4. Caso práctico"
 date: 2025-06-01 15:13:14 -0500
-permalink: /casopractucorsa-python/
+permalink: /caso-practico-rsa/
 ---
 
 ### 4. Caso práctico:
@@ -23,5 +23,5 @@ El emisor cifra el mensaje usando la clave pública del receptor.
 Descifrado:
 El receptor usa su clave privada para descifrar el mensaje.
 
-[Ver ejemplo práctico de RSA en Python]( /rsa-python.html )
+<a href="/rsa-python.html">Ver ejemplo práctico de RSA en Python</a>
 

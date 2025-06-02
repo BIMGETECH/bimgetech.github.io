@@ -22,4 +22,4 @@ Cifrado:
 El emisor cifra el mensaje usando la clave pública del receptor.
 Descifrado:
 El receptor usa su clave privada para descifrar el mensaje.
-<a href="https://bimgetech.github.io/rsa-python.html">Ejemplo práctico de RSA en Python</a>
+[este enlace](/rsa-python.html).

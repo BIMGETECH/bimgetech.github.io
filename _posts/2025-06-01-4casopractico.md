@@ -2,7 +2,7 @@
 layout: post
 title: "4. Caso práctico"
 date: 2025-06-01 15:13:14 -0500
-permalink: //rsa-python/
+permalink: /rsa-python/
 ---
 
 ### 4. Caso práctico:

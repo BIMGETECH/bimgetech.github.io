@@ -6,12 +6,20 @@ categories: jekyll update
 ---
 
 ### 4. Caso práctico:
-Comunicación Segura con TLS/SSL
-Algoritmo usado: RSA o ECC (en handshake TLS) + AES (simétrico para datos). Dónde se aplica: Conexiones web (HTTPS), APIs, correos (SMTP/TLS).
-Cómo funciona:
-El cliente verifica el certificado SSL del servidor (firmado con RSA/ECC).
-Intercambio de claves:
-El servidor envía su clave pública.
-El cliente cifra una “clave de sesión” (para AES) con esa clave pública.
-Comunicación cifrada:
-Ambos usan AES con la clave de sesión para intercambiar datos rápidamente. Ejemplo real: plaintext Cliente (Navegador) Servidor (Web) |———————->| Solicita conexión HTTPS. |<———————-| Envía certificado (clave pública RSA). |– [Cifra clave AES] –>| Usa RSA para enviar clave simétrica. |<======== [AES] ======>| Comunicación cifrada con AES.
+Uso del algoritmo RSA en una comunicación segura
+¿Qué es RSA?
+RSA (Rivest-Shamir-Adleman) es uno de los algoritmos de criptografía de clave pública más conocidos. Se utiliza para cifrar mensajes, firmar digitalmente y proteger comunicaciones.
+¿Dónde se usa?
+Se usa ampliamente en:
+Certificados digitales (SSL/TLS)
+Firmas electrónicas
+Autenticación segura en correos electrónicos y sitios web
+¿Cómo funciona?
+Generación de claves:
+Se generan dos números primos grandes.
+Se calculan valores matemáticos para producir una clave pública y una clave privada.
+Cifrado:
+El emisor cifra el mensaje usando la clave pública del receptor.
+Descifrado:
+El receptor usa su clave privada para descifrar el mensaje.
+<a href="rsa-python.html">Ver ejemplo práctico de RSA en Python</a>

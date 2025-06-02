@@ -18,4 +18,3 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-permalink: /rsa-python.html

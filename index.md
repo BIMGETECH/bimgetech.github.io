@@ -8,7 +8,7 @@ html
   
   <title>
     
-      bimgetech
+      Bimgetech
     
   </title>
   

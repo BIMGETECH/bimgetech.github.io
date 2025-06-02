@@ -1,27 +1,31 @@
-(function(document) {
-    var metas = document.getElementsByTagName('meta'),
-        changeViewportContent = function(content) {
-            for (var i = 0; i < metas.length; i++) {
-                if (metas[i].name == "viewport") {
-                    metas[i].content = content;
-                }
-            }
-        },
-        initialize = function() {
-            changeViewportContent("width=device-width, minimum-scale=1.0, maximum-scale=1.0");
-        },
-        gestureStart = function() {
-            changeViewportContent("width=device-width, minimum-scale=0.25, maximum-scale=1.6");
-        },
-        gestureEnd = function() {
-            initialize();
-        };
+:root {
+  --bg: #ffffff;
+  --text: #333333;
+  --link: #2563eb;
+}
 
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --text: #e2e8f0;
+  --link: #60a5fa;
+}
 
-    if (navigator.userAgent.match(/iPhone/i)) {
-        initialize();
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background 0.3s;
+}
 
-        document.addEventListener("touchstart", gestureStart, false);
-        document.addEventListener("touchend", gestureEnd, false);
-    }
-})(document);
+a {
+  color: var(--link);
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: fixed;
+  top: 15px;
+  right: 15px;
+}

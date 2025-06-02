@@ -25,3 +25,6 @@ El receptor usa su clave privada para descifrar el mensaje.
 
 <a href="/rsa-python.html">Ver ejemplo práctico de RSA en Python</a>
 
+Ref.
+Rivest, R. L., Shamir, A., & Adleman, L. (1978). A method for obtaining digital signatures and public‐key cryptosystems.
+Communications of the ACM, 21(2), 120–126. https://doi.org/10.1145/359340.359342
